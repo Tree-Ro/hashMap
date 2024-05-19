@@ -1,7 +1,4 @@
 import Node from './node_modules/@tree-ro/linked-list/index.mjs';
-//if (index < 0 || index >= buckets.length) {
-//  throw new Error("Trying to access index out of bound");
-//}
 
 class HashMap {
   constructor() {
@@ -177,8 +174,9 @@ class HashMap {
 }
 
 const myMap = new HashMap();
-console.log(myMap.hash(''));
 
+
+//placeholder data
 myMap.set('Rich', 'Nope!'); //12
 myMap.set('Bob', 'Smith'); //5
 myMap.set('Sweden', 'Of course!'); //12
@@ -192,5 +190,3 @@ myMap.set('Frogs', 'Miss. Cow');
 myMap.set('Potential futures', 'Death');
 myMap.set('Potential Pasts', 'Death');
 myMap.set('Interests', 'cool things');
-
-console.log(myMap.capacity);
