@@ -1,4 +1,4 @@
-import Node from './node_modules/@tree-ro/linked-list/index.mjs';
+import Node from '@tree-ro/linked-list';
 
 class HashMap {
   constructor() {
