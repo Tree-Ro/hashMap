@@ -9,7 +9,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "@eslint/js": "^9.3.0",
     "eslint": "^9.3.0",
@@ -18,5 +17,6 @@
   },
   "dependencies": {
     "@tree-ro/linked-list": "^1.1.0"
-  }
+  },
+  "description": ""
 }

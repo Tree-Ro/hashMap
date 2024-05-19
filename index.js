@@ -14,7 +14,7 @@ class HashMap {
     for (let i = 0; i < key.length; i++) {
       hashCode = primeNumber * hashCode + key.charCodeAt(i);
 
-      hashCode %= this.capacity;
+      hashCode %= 16;
     }
 
     return hashCode;
@@ -175,7 +175,6 @@ class HashMap {
 
 const myMap = new HashMap();
 
-
 //placeholder data
 myMap.set('Rich', 'Nope!'); //12
 myMap.set('Bob', 'Smith'); //5
@@ -190,3 +189,5 @@ myMap.set('Frogs', 'Miss. Cow');
 myMap.set('Potential futures', 'Death');
 myMap.set('Potential Pasts', 'Death');
 myMap.set('Interests', 'cool things');
+
+console.log(myMap.entries());
